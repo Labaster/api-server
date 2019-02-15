@@ -9,5 +9,8 @@
     "koa-ejs": "^4.2.0",
     "koa-router": "^7.4.0",
     "path": "^0.12.7"
+  },
+  "scripts": {
+    "start": "npm index.js"
   }
 }
