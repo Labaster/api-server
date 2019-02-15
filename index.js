@@ -14,7 +14,7 @@ render(app, {
 
 app.use(routes);
 
-let port = 9000;
+let port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`http://localhost:${port}`);
 });
